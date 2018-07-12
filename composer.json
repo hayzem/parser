@@ -1,0 +1,28 @@
+{
+    "name": "hayzem/parser",
+    "description": "Php markdown  parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hayzem",
+            "email": "aliatasever@gmail.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hayzem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "ParserTest": "test/"
+        }
+    }
+}
